@@ -423,7 +423,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
@@ -616,6 +616,7 @@ GameObject:
   - component: {fileID: 513477813}
   - component: {fileID: 513477817}
   - component: {fileID: 513477816}
+  - component: {fileID: 513477818}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -854,6 +855,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &513477818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513477811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6772076f88dfd244fa6037fe11f3c9e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &550657116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7449733437052340490, guid: 9ace57f52a8009b4f8d94dcf1cee7197, type: 3}
@@ -1895,7 +1908,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
@@ -2045,7 +2058,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3864788267684592096, guid: ca80883768da96a4fa660b05964c3175, type: 3}
       propertyPath: m_ProvidesContacts
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6677054898246456145, guid: ca80883768da96a4fa660b05964c3175, type: 3}
       propertyPath: m_Name
@@ -2844,7 +2857,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3864788267684592096, guid: 3ab79093272b1f046a09b6bcbb1fc62a, type: 3}
       propertyPath: m_ProvidesContacts
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6677054898246456145, guid: 3ab79093272b1f046a09b6bcbb1fc62a, type: 3}
       propertyPath: m_Name
