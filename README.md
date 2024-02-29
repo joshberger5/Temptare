@@ -1,6 +1,5 @@
 # Temptare
 CSC-475 Project Proposal
-
 **Joshua Berger**
 
 Department of Computer Science
@@ -8,8 +7,6 @@ Department of Computer Science
 Furman University
 
 bergjo7@furman.edu
-
-
 
 ## Project Proposal
 **Project Title.**
@@ -192,47 +189,47 @@ thiscodedoesthis.com/fire-projectile-unity/. [Online; accessed 23-January-2024].
 Physics.Raycast.html. [Online; accessed 24-January-2024].
 
 [5] Anubis G de Moraes Rossetto, Thauany C Martins, Luís Augusto Silva, Daiana RF Leithardt,
-Beatriz María Bermejo-Gil, and Valderi RQ Leithardt. An analysis of the use of augmented
-reality and virtual reality as educational resources. Computer Applications in Engineering
+Beatriz María Bermejo-Gil, and Valderi RQ Leithardt. An Analysis of the Use of Augmented
+Reality and Virtual Reality as Educational Resources. Computer Applications in Engineering
 Education, 31(6):1761–1775, 2023.
 
 [6] Camilla Elena Magi, Stefano Bambi, Paolo Iovino, Khadija El Aoufy, Carla Amato, Chiara
-Balestri, Laura Rasero, and Yari Longobucco. Virtual reality and augmented reality training
-in disaster medicine courses for students in nursing: a scoping review of adoptable tools.
+Balestri, Laura Rasero, and Yari Longobucco. Virtual Reality and Augmented Reality Training 
+in Disaster Medicine Courses for Students in Nursing: A Scoping Review of Adoptable Tools.
 Behavioral Sciences, 13(7):616, 2023.
 
-[7] Esther Z Barsom, Maurits Graafland, and Marlies P Schijven. Systematic review on the effective-
-ness of augmented reality applications in medical training. Surgical endoscopy, 30:4174–4183,
+[7] Esther Z Barsom, Maurits Graafland, and Marlies P Schijven. Systematic Review on the 
+Effectiveness of Augmented Reality Applications in Medical Training. Surgical Endoscopy, 30:4174–4183,
 2016.
 
 [8] Raimundo Castaño-Calle, Amparo Jiménez-Vivas, Raquel Poy Castro, María Isabel Calvo Ál-
-varez, and Cristina Jenaro. Perceived benefits of future teachers on the usefulness of virtual and
-augmented reality in the teaching-learning process. Education Sciences, 12(12):855, 2022.
+varez, and Cristina Jenaro. Perceived Benefits of Future Teachers on the Usefulness of Virtual
+and Augmented Reality in the Teaching-Learning Process. Education Sciences, 12(12):855, 2022.
 
 [9] Christian Hartmann, Younes Orli-Idrissi, Laura Claudia Johanna Pflieger, and Maria Bannert.
-Imagine & immerse yourself: Does visuospatial imagery moderate learning in virtual reality?
+Imagine & immerse yourself: Does Visuospatial Imagery Moderate Learning in Virtual Reality?
 Computers & Education, 207:104909, 2023.
 
-[10] Celine Merkx and Jeroen Nawijn. Virtual reality tourism experiences: Addiction and isolation.
+[10] Celine Merkx and Jeroen Nawijn. Virtual Reality Tourism Experiences: Addiction and Isolation.
 Tourism Management, 87:104394, 2021.
 
 [11] Ihshan Gumilar, Ekansh Sareen, Reed Bell, Augustus Stone, Ashkan Hayati, Jingwen Mao,
-Amit Barde, Anubha Gupta, Arindam Dey, Gun Lee, et al. A comparative study on inter-brain
-synchrony in real and virtual environments using hyperscanning. Computers & Graphics,
+Amit Barde, Anubha Gupta, Arindam Dey, Gun Lee, et al. A Comparative Study on Inter-Brain
+Synchrony in Real and Virtual Environments Using Hyperscanning. Computers & Graphics,
 94:62–75, 2021.
 
-[12] Mel Slater, Bernhard Spanlang, Maria V Sanchez-Vives, and Olaf Blanke. First person experi-
-ence of body transfer in virtual reality. PloS one, 5(5):e10564, 2010.
+[12] Mel Slater, Bernhard Spanlang, Maria V Sanchez-Vives, and Olaf Blanke. First Person 
+Experience of Body Transfer in Virtual Reality. PloS One, 5(5):e10564, 2010.
 
 [13] Megan L Ranney, Frederica R Conrey, Leah Perkinson, Stefanie Friedhoff, Rory Smith, and
-Claire Wardle. How americans encounter guns: Mixed methods content analysis of youtube
-and internet search data. Preventive medicine, 165:107258, 2022.
+Claire Wardle. How Americans Encounter Guns: Mixed Methods Content Analysis of YouTube
+and Internet Search Data. Preventive Medicine, 165:107258, 2022.
 
-[14] KE Bridges, PM Corballis, M Spray, and J Bagrie. Testing failure-to-identify hunting incidents
-using an immersive simulation: Is it viable? Applied ergonomics, 93:103358, 2021.
+[14] KE Bridges, PM Corballis, M Spray, and J Bagrie. Testing Failure-To-Identify Hunting Incidents
+Using an Immersive Simulation: Is it viable? Applied Ergonomics, 93:103358, 2021.
 
 [15] David C Schwebel, D Leann Long, Marissa Gowey, Joan Severson, Yefei He, and Katelyn
-Trullinger. Study protocol: developing and evaluating an interactive web platform to teach
-children hunting, shooting and firearms safety: a randomized controlled trial. BMC public
-health, 21(1):1–12, 2021.
+Trullinger. Study protocol: Developing and Evaluating an Interactive Web Platform to Teach
+Children Hunting, Shooting and Firearms Safety: A Randomized Controlled Trial. BMC Public
+Health, 21(1):1–12, 2021.
 
