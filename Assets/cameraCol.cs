@@ -4,23 +4,17 @@ using UnityEngine;
 
 public class cameraCol : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField]
+    List<string> tags;
 
     private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Friendly" || collision.gameObject.tag == "Target")
+    {   
+        foreach (string tag in tags)
         {
-            transform.parent.position = new Vector3(transform.parent.position.x - transform.forward.x, transform.parent.position.y, transform.parent.position.z - transform.forward.z);
+            if (collision.gameObject.tag == tag)
+            {
+                transform.parent.position = new Vector3(transform.parent.position.x - transform.forward.x, transform.parent.position.y, transform.parent.position.z - transform.forward.z);
+            }
         }
     }
 }
