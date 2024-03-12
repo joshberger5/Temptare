@@ -607,6 +607,7 @@ GameObject:
   - component: {fileID: 513477813}
   - component: {fileID: 513477817}
   - component: {fileID: 513477816}
+  - component: {fileID: 513477818}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -641,7 +642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2fadf230d1919748a9aa21d40f74619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackingType: 1
+  m_TrackingType: 0
   m_UpdateType: 0
   m_IgnoreTrackingState: 0
   m_PositionInput:
@@ -845,6 +846,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &513477818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513477811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6772076f88dfd244fa6037fe11f3c9e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tags:
+  - BarricadePart
 --- !u!1 &550657116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7449733437052340490, guid: 9ace57f52a8009b4f8d94dcf1cee7197, type: 3}
