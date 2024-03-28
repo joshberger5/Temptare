@@ -36,7 +36,7 @@ public class CameraMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "CameraCollider") // change the direction of the camera's motion
+        if (other.gameObject.tag == "CameraDirectionChanger") // change the direction of the camera's motion
         {
             moveDirection = other.transform.forward;
         }

@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 130883473007081267}
   - component: {fileID: 6896816743036497662}
   m_Layer: 0
-  m_Name: CameraCollider
-  m_TagString: CameraCollider
+  m_Name: CameraDirectionChanger
+  m_TagString: CameraDirectionChanger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -3702,7 +3702,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4937295631864477172, guid: 3e3f73d6bb041c448b309eeba6cf9b93, type: 3}
       propertyPath: m_Name
-      value: CameraCollider 1
+      value: CameraDirectionChanger 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937295631864477172, guid: 3e3f73d6bb041c448b309eeba6cf9b93, type: 3}
+      propertyPath: m_TagString
+      value: CameraDirectionChanger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
