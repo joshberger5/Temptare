@@ -16,9 +16,6 @@ public class Projectile : MonoBehaviour
     [SerializeField]
     private Renderer renderer;
 
-    // tells if the projectile collided with something
-    private bool collided = false;
-
     // holds the rigidbody of the projectile
     private Rigidbody rb;
 
@@ -32,11 +29,10 @@ public class Projectile : MonoBehaviour
         renderer.material.color = colors[Random.Range(0, colors.Length - 1)];
     }
 
-    // FixedUpdate is earlier in the order of operations than 
+    // FixedUpdate is earlier in the order of operations than Update
     private void FixedUpdate()
     {
-        if (collided) rb.velocity = new Vector3(0, 0, 0);
-        else transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 
     // collision handler
@@ -46,7 +42,6 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject.tag != "Blaster")
         {
-            collided = true;
             Destroy(gameObject);
             if (collision.gameObject.tag == "Target") {
                 LaunchProjectile.incScore();
