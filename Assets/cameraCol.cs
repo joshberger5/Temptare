@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cameraCol : MonoBehaviour
+public class CameraCol : MonoBehaviour
 {
     [SerializeField]
     List<string> tags;  // the tags of objects the camera should collide with
