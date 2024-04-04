@@ -4,51 +4,49 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    // speed the projectile should move
     [SerializeField]
-    private float speed = 5.0f;
+    private float speed; // the speed the projectile should move
 
-    // the array of colors to choose from
     [SerializeField]
-    private Color[] colors;
+    private Color[] colors; // the array of colors to choose from
 
-    // the renderer for the projectile
     [SerializeField]
-    private Renderer renderer;
+    private Renderer renderer; // the renderer for the projectile
 
-    // holds the rigidbody of the projectile
-    private Rigidbody rb;
+    private Rigidbody rb; // holds the rigidbody of the projectile
 
-    // Start is called before the first frame update
     private void Start()
     {
-        // instantiates the rigidbody
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>(); // initialize the rigidbody
+        renderer.material.color = colors[Random.Range(0, colors.Length - 1)]; // randomly assign a color
 
-        // randomly assign a color
-        renderer.material.color = colors[Random.Range(0, colors.Length - 1)];
+        ignoreCollisions(GameObject.FindGameObjectsWithTag("Blaster")); // ignore collisions with GameObjects of certain tags
+        ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraStopper"));
+        ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraBodyFlipper"));
+        ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraDirectionChanger"));
     }
 
-    // FixedUpdate is earlier in the order of operations than Update
+    private void ignoreCollisions(GameObject[] ignoreThese) // ignore collisions with certain GameObjects
+    {
+        foreach (GameObject g in ignoreThese)
+        {
+            Physics.IgnoreCollision(g.GetComponent<Collider>(), GetComponent<Collider>());
+        }
+    }
+
     private void FixedUpdate()
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Translate(Vector3.forward * speed * Time.deltaTime); // move the projectile forwards
     }
 
-    // collision handler
-    // destroys projectile on collision with anything other than blaster
-    // adds to score if projectile collides with target
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision) // collision handler
     {
-        if (collision.gameObject.tag != "Blaster")
-        {
-            Destroy(gameObject);
-            if (collision.gameObject.tag == "Target") {
-                LaunchProjectile.incScore();
-            }
-            else if (collision.gameObject.tag == "Friendly") {
-                LaunchProjectile.decScore();
-            }
+        Destroy(gameObject);
+        if (collision.gameObject.tag == "Target") { // increase score if the projectile hits a target
+            LaunchProjectile.incScore();
+        }
+        else if (collision.gameObject.tag == "Friendly") { // decrease score if the projectile hits a friendly
+            LaunchProjectile.decScore();
         }
     }
 }

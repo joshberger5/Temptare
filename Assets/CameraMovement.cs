@@ -8,41 +8,34 @@ public class CameraMovement : MonoBehaviour
 
     private Vector3 moveDirection = Vector3.forward; // vector3 holds the direction the camera should move
 
-    private int moveAmount = 1; // int holds the amount the camera should move
+    private float moveAmount = 1.5f; // int holds the amount the camera should move
 
-    public void Move() 
+    public void Move() // sets move to true
     { 
-        // sets move to true
         move = true;
     }
 
-    void Update() 
+    void Update() // if move is true, move the camera the direction held in moveDirection
     {   
-        // if move is true, move the camera forward
         if (move)
         {
             transform.parent.Translate(moveDirection * moveAmount * Time.deltaTime);
-            /*
-            if (transform.parent.position.x == 0 && transform.parent.position.z < 10) 
-            {
-                transform.parent.Translate(moveDirection * Time.deltaTime);
-            }
-            else {
-                transform.parent.Translate(Vector3.right * Time.deltaTime);
-            }
-            */
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) // if the camera hits a trigger, modify the camera's movement
     {
-        if (other.gameObject.tag == "CameraDirectionChanger") // change the direction of the camera's motion
+        if (other.gameObject.tag == "CameraDirectionChanger") // if it hits a CameraDirectionChanger, then change the direction of the camera's motion
         {
             moveDirection = other.transform.forward;
         }
-        else if (other.gameObject.tag == "CameraStopper") // stop the camera
+        else if (other.gameObject.tag == "CameraStopper") // if it hits a CameraStopper, then stop the camera
         {
             moveAmount = 0;
+        }
+        else if (other.gameObject.tag == "CameraBodyFlipper") // if it hits a CameraBodyFlipper, then rotate the nearby bodies
+        {
+            other.gameObject.GetComponent<FlipBodies>().flip();
         }
     }
 }

@@ -2,43 +2,35 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using TMPro;
 
-/// <summary>
-/// Apply forward force to instantiated prefab
-/// </summary>
 public class LaunchProjectile : MonoBehaviour
 {
     [SerializeField]
-    [Tooltip("The projectile that's created")]
-    private GameObject projectilePrefab = null;
+    private GameObject projectilePrefab = null; // the prefab for the projectile
 
     [SerializeField]
-    [Tooltip("The point that the project is created")]
-    private Transform startPoint = null;
+    private Transform startPoint = null; // where the projectile will be instantiated
 
     [SerializeField]
-    GameObject scoreKeeper = null;
+    GameObject scoreKeeper = null;  // the object that displays the score
 
-    // keep track of the score
-    public static int score = 0;
+    public static int score = 0; // the score for the game
 
-    // spawn the projectile
-    public void Fire()
+    public void Fire() // spawns the projectile
     {
         GameObject newObject = Instantiate(projectilePrefab, startPoint.position, startPoint.rotation);
     }
 
-    // increase the score
-    public static void incScore() {
+    public static void incScore() // increases the score
+    {
         score++;
     }
 
-    // decrease the score
-    public static void decScore() {
+    public static void decScore() // decreases the score
+    {
         score--;
     }
     
-    // display the score
-    void Update()
+    void Update() // displays the score
     {
         scoreKeeper.GetComponent<TextMeshProUGUI>().text = score.ToString();
     }
