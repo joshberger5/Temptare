@@ -32,6 +32,9 @@ public class LaunchProjectile : MonoBehaviour
     
     void Update() // displays the score
     {
-        scoreKeeper.GetComponent<TextMeshProUGUI>().text = score.ToString();
+        if (scoreKeeper != null)
+        {
+            scoreKeeper.GetComponent<TextMeshProUGUI>().text = score.ToString();
+        }
     }
 }

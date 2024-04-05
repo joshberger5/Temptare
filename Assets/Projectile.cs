@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Projectile : MonoBehaviour
 {
@@ -46,7 +47,10 @@ public class Projectile : MonoBehaviour
             LaunchProjectile.incScore();
         }
         else if (collision.gameObject.tag == "Friendly") { // decrease score if the projectile hits a friendly
-            LaunchProjectile.decScore();
+            SceneManager.LoadScene("ShotFriendly");
+        }
+        else if (collision.gameObject.tag == "ScenePicker") {  // switch scenes if the projectile hits a ScenePicker
+            SceneManager.LoadScene(collision.gameObject.name);
         }
     }
 }

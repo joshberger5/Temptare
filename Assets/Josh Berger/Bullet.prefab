@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1319523190652897324}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,13 +132,6 @@ MonoBehaviour:
   - {r: 0.9559748, g: 1, b: 1, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   renderer: {fileID: 1741519724599578927}
-  objectsToIgnore:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!54 &1319523190652897324
 Rigidbody:
   m_ObjectHideFlags: 0
