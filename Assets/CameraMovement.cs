@@ -45,5 +45,9 @@ public class CameraMovement : MonoBehaviour
         {
             SceneManager.LoadScene(nextScene);
         }
+        else if (other.gameObject.tag == "CameraBodyRaiser") // if it hits a CameraBodyRaiser, then raise the nearby bodies
+        {
+            other.gameObject.GetComponent<RaiseBodies>().raise();
+        }
     }
 }

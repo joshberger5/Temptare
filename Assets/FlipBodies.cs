@@ -9,7 +9,7 @@ public class FlipBodies : MonoBehaviour
 
     public void flip() // flips the bodies
     {
-        foreach (GameObject body in bodies) // for each body in the array, flip it
+        foreach (GameObject body in bodies) // flip each body in the array
         {
             body.GetComponent<FlipBodyUp>().flip = true;
         }

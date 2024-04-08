@@ -13,7 +13,16 @@ public class LaunchProjectile : MonoBehaviour
     [SerializeField]
     GameObject scoreKeeper = null;  // the object that displays the score
 
-    public static int score = 0; // the score for the game
+    void FixedUpdate() {
+        RaycastHit hit; // counts the times the user aims at a friendly
+        if (Physics.Raycast(startPoint.position, startPoint.forward, out hit, Mathf.Infinity)) 
+        {
+            if (hit.collider.gameObject.CompareTag("Friendly"))
+            {
+                PersistentVarHolder.Instance.aimedAtFriendlyCount++;
+            }
+        }
+    }
 
     public void Fire() // spawns the projectile
     {
@@ -22,19 +31,19 @@ public class LaunchProjectile : MonoBehaviour
 
     public static void incScore() // increases the score
     {
-        score++;
+        PersistentVarHolder.Instance.score++;
     }
 
     public static void decScore() // decreases the score
     {
-        score--;
+        PersistentVarHolder.Instance.score--;
     }
     
     void Update() // displays the score
     {
         if (scoreKeeper != null)
         {
-            scoreKeeper.GetComponent<TextMeshProUGUI>().text = score.ToString();
+            scoreKeeper.GetComponent<TextMeshProUGUI>().text = PersistentVarHolder.Instance.score.ToString();
         }
     }
 }
