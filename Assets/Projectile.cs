@@ -16,6 +16,9 @@ public class Projectile : MonoBehaviour
 
     private Rigidbody rb; // holds the rigidbody of the projectile
 
+    [SerializeField]
+    private GameObject warning; // the prefab for the warning display when a friendly is hit
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>(); // initialize the rigidbody
@@ -25,6 +28,7 @@ public class Projectile : MonoBehaviour
         ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraStopper"));
         ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraBodyFlipper"));
         ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraDirectionChanger"));
+        ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraBodyRaiser"));
     }
 
     private void ignoreCollisions(GameObject[] ignoreThese) // ignore collisions with certain GameObjects
@@ -43,14 +47,29 @@ public class Projectile : MonoBehaviour
     private void OnCollisionEnter(Collision collision) // collision handler
     {
         Destroy(gameObject);
-        if (collision.gameObject.tag == "Target") { // increase score if the projectile hits a target
-            LaunchProjectile.incScore();
+        if (collision.gameObject.tag == "Target") { // increase the score if the projectile hits a target
+            if (PersistentVarHolder.Instance != null && SceneManager.GetActiveScene().name != "Range") // don't affect the persistent score in the range scene
+            {
+                PersistentVarHolder.Instance.score++;
+            }
+            else
+            {
+                LaunchProjectile.localScore++;
+            }
         }
-        else if (collision.gameObject.tag == "Friendly") { // decrease score if the projectile hits a friendly
-            SceneManager.LoadScene("ShotFriendly");
+        else if (collision.gameObject.tag == "Friendly") { // go to the ShotFriendly scene if the projectile hits a friendly
+            if (SceneManager.GetActiveScene().name != "Range") // don't switch scenes in the range scene
+            {
+                SceneManager.LoadScene("ShotFriendly");
+            }
+            else { // create a warning display if the projectile hits a friendly in the range scene
+                Vector3 wPos = new Vector3(collision.transform.position.x, collision.transform.position.y + 1, collision.transform.position.z);
+                GameObject newObject = Instantiate(warning, wPos, Quaternion.LookRotation(Vector3.forward, Vector3.up));
+            }
         }
         else if (collision.gameObject.tag == "ScenePicker") {  // switch scenes if the projectile hits a ScenePicker
             SceneManager.LoadScene(collision.gameObject.name);
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName(collision.gameObject.name));
         }
     }
 }

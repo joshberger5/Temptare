@@ -1,6 +1,7 @@
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LaunchProjectile : MonoBehaviour
 {
@@ -11,15 +12,23 @@ public class LaunchProjectile : MonoBehaviour
     private Transform startPoint = null; // where the projectile will be instantiated
 
     [SerializeField]
-    GameObject scoreKeeper = null;  // the object that displays the score
+    public GameObject scoreKeeper = null;  // the object that displays the score
+
+    public static int localScore = 0; // the local score (mainly for the range scene)
+
+    private float timer = 0f; // the timer to check aiming at friendlies
 
     void FixedUpdate() {
-        RaycastHit hit; // counts the times the user aims at a friendly
-        if (Physics.Raycast(startPoint.position, startPoint.forward, out hit, Mathf.Infinity)) 
+        timer += Time.deltaTime; // increments the timer
+        if (timer >= 1f) // counts the times the user aims at a friendly every second
         {
-            if (hit.collider.gameObject.CompareTag("Friendly"))
+            RaycastHit hit;
+            if (Physics.Raycast(startPoint.position, startPoint.forward, out hit, Mathf.Infinity)) 
             {
-                PersistentVarHolder.Instance.aimedAtFriendlyCount++;
+                if (hit.collider.gameObject.CompareTag("Friendly") && PersistentVarHolder.Instance != null)
+                {
+                    PersistentVarHolder.Instance.aimedAtFriendlyCount++;
+                }
             }
         }
     }
@@ -28,22 +37,19 @@ public class LaunchProjectile : MonoBehaviour
     {
         GameObject newObject = Instantiate(projectilePrefab, startPoint.position, startPoint.rotation);
     }
-
-    public static void incScore() // increases the score
-    {
-        PersistentVarHolder.Instance.score++;
-    }
-
-    public static void decScore() // decreases the score
-    {
-        PersistentVarHolder.Instance.score--;
-    }
     
     void Update() // displays the score
     {
-        if (scoreKeeper != null)
+        if (scoreKeeper != null) 
         {
-            scoreKeeper.GetComponent<TextMeshProUGUI>().text = PersistentVarHolder.Instance.score.ToString();
+            if (PersistentVarHolder.Instance != null && SceneManager.GetActiveScene().name != "Range")
+            {
+                scoreKeeper.GetComponent<TextMeshProUGUI>().text = PersistentVarHolder.Instance.score.ToString();
+            }
+            else 
+            {
+                scoreKeeper.GetComponent<TextMeshProUGUI>().text = localScore.ToString();
+            }
         }
     }
 }

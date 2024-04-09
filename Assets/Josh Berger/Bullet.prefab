@@ -132,6 +132,7 @@ MonoBehaviour:
   - {r: 0.9559748, g: 1, b: 1, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   renderer: {fileID: 1741519724599578927}
+  warning: {fileID: 4053202431423043700, guid: 81a02cef13b0ed64ba70ec5c80bb23e7, type: 3}
 --- !u!54 &1319523190652897324
 Rigidbody:
   m_ObjectHideFlags: 0
