@@ -64,8 +64,12 @@ public class Projectile : MonoBehaviour
                 SceneManager.LoadScene("ShotFriendly");
             }
             else { // create a warning display if the projectile hits a friendly in the range scene
-                Vector3 wPos = new Vector3(collision.transform.position.x, collision.transform.position.y + 1, collision.transform.position.z);
-                GameObject newObject = Instantiate(warning, wPos, Quaternion.LookRotation(Vector3.forward, Vector3.up));
+                if (collision.gameObject.GetComponent<BeenShot>() != null && !collision.gameObject.GetComponent<BeenShot>().getBeenShot()) // if the friendly has not been shot before, create a warning display
+                {
+                    Vector3 wPos = new Vector3(collision.transform.position.x, collision.transform.position.y + 1, collision.transform.position.z);
+                    GameObject newObject = Instantiate(warning, wPos, Quaternion.LookRotation(Vector3.forward, Vector3.up));
+                    collision.gameObject.GetComponent<BeenShot>().setBeenShot();
+                }
             }
         }
         else if (collision.gameObject.tag == "ScenePicker") {  // switch scenes if the projectile hits a ScenePicker
