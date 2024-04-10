@@ -29,6 +29,7 @@ public class Projectile : MonoBehaviour
         ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraBodyFlipper"));
         ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraDirectionChanger"));
         ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraBodyRaiser"));
+        ignoreCollisions(GameObject.FindGameObjectsWithTag("CameraWinInvoker"));
     }
 
     private void ignoreCollisions(GameObject[] ignoreThese) // ignore collisions with certain GameObjects

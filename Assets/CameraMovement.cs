@@ -49,5 +49,9 @@ public class CameraMovement : MonoBehaviour
         {
             other.gameObject.GetComponent<RaiseBodies>().raise();
         }
+        else if (other.gameObject.tag == "CameraWinInvoker") // if it hits a CameraWinInvoker, then jump to the win scene
+        {
+            SceneManager.LoadScene("Win");
+        }
     }
 }

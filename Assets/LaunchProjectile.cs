@@ -16,21 +16,44 @@ public class LaunchProjectile : MonoBehaviour
 
     public static int localScore = 0; // the local score (mainly for the range scene)
 
-    private float timer = 0f; // the timer to check aiming at friendlies
+    private bool wasAimingAtFriendly = false; // whether the player was aiming at a friendly last frame
 
-    void FixedUpdate() {
-        timer += Time.deltaTime; // increments the timer
-        if (timer >= 1f) // counts the times the user aims at a friendly every second
+    private bool isHeld = false; // whether the player is holding the projectile launcher
+
+    void FixedUpdate() { // handles aiming at friendlies
+        RaycastHit hit;
+        if (Physics.Raycast(startPoint.position, startPoint.forward, out hit, Mathf.Infinity)) // otherwise, check if the player is aiming at a friendly or themself
         {
-            RaycastHit hit;
-            if (Physics.Raycast(startPoint.position, startPoint.forward, out hit, Mathf.Infinity)) 
+            if (hit.collider.gameObject.CompareTag("Friendly")) // if they are aiming at a friendly, check if they were during last frame as well
             {
-                if (hit.collider.gameObject.CompareTag("Friendly") && PersistentVarHolder.Instance != null)
+                if (!wasAimingAtFriendly) // if they weren't, increment the number of times the player aimed at a friendly and make a note that they were
                 {
-                    PersistentVarHolder.Instance.aimedAtFriendlyCount++;
+                    if (PersistentVarHolder.Instance != null)
+                    {
+                        PersistentVarHolder.Instance.aimedAtFriendlyCount++;
+                    }
+                    wasAimingAtFriendly = true;
                 }
             }
+            else if (hit.collider.gameObject.CompareTag("SelfHarmHandler") && isHeld) // if they are aiming at themself, end the game
+            {
+                SceneManager.LoadScene("ShotFriendly");
+            }
+            else // if the player is not aiming at a friendly, make a note that they weren't
+            {
+                wasAimingAtFriendly = false;
+            }
         }
+    }
+
+    public void pickedUp() // sets isHeld to true
+    {
+        isHeld = true;
+    }
+
+    public void putDown() // sets isHeld to false
+    {
+        isHeld = false;
     }
 
     public void Fire() // spawns the projectile
