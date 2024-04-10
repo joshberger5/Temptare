@@ -37,7 +37,7 @@ public class LaunchProjectile : MonoBehaviour
             }
             else if (hit.collider.gameObject.CompareTag("SelfHarmHandler") && isHeld) // if they are aiming at themself, end the game
             {
-                SceneManager.LoadScene("ShotFriendly");
+                SceneManager.LoadScene("SuicidePrevention");
             }
             else // if the player is not aiming at a friendly, make a note that they weren't
             {
