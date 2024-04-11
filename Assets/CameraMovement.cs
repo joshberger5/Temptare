@@ -23,18 +23,18 @@ public class CameraMovement : MonoBehaviour
     {   
         if (move)
         {
-            transform.parent.Translate(moveDirection * moveAmount * Time.deltaTime);
+            transform.parent.Translate(moveDirection * moveAmount * Time.deltaTime); // moves the user forward
+            bool isHoldingAtLeastOneBlaster = false; // checks if a user is holding at least one blaster while moving through the training course
             foreach (GameObject blaster in blasters)
             {
-                bool isHoldingAtLeastOneBlaster = false;
-                if (blaster.GetComponent<LaunchProjectile>() != null && blaster.gameObject.GetComponent<LaunchProjectile>().getIsHeld())
+                if (blaster.GetComponent<LaunchProjectile>() != null && blaster.GetComponent<LaunchProjectile>().getIsHeld())
                 {
                     isHoldingAtLeastOneBlaster = true;
                 }
-                if (!isHoldingAtLeastOneBlaster)
-                {
-                    SceneManager.LoadScene("DroppedBlasters");
-                }
+            }
+            if (!isHoldingAtLeastOneBlaster)
+            {
+                SceneManager.LoadScene("DroppedBlasters");
             }
         }   
     }
