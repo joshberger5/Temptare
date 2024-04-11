@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class CameraMovement : MonoBehaviour
 {
-    [SerializeField]
-    private string nextScene; // holds the name of the next scene
-
     private bool move = false; // boolean holds whether the camera should move
 
     private Vector3 moveDirection = Vector3.forward; // vector3 holds the direction the camera should move
@@ -55,10 +52,6 @@ public class CameraMovement : MonoBehaviour
         else if (other.gameObject.tag == "CameraBodyFlipper") // if it hits a CameraBodyFlipper, then rotate the nearby bodies
         {
             other.gameObject.GetComponent<FlipBodies>().flip();
-        }
-        else if (other.gameObject.tag == "CameraSceneChanger" && nextScene != "") // if it hits a CameraSceneChanger, then change the scene
-        {
-            SceneManager.LoadScene(nextScene);
         }
         else if (other.gameObject.tag == "CameraBodyRaiser") // if it hits a CameraBodyRaiser, then raise the nearby bodies
         {
