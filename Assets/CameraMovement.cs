@@ -14,6 +14,8 @@ public class CameraMovement : MonoBehaviour
 
     private float moveAmount = 1.5f; // int holds the amount the camera should move
 
+    private GameObject[] blasters;
+
     public void Move() // sets move to true
     { 
         move = true;
@@ -24,6 +26,18 @@ public class CameraMovement : MonoBehaviour
         if (move)
         {
             transform.parent.Translate(moveDirection * moveAmount * Time.deltaTime);
+            foreach (GameObject blaster in blasters)
+            {
+                bool isHoldingAtLeastOneBlaster = false;
+                if (blaster.GetComponent<LaunchProjectile>() != null && blaster.gameObject.GetComponent<LaunchProjectile>().getIsHeld())
+                {
+                    isHoldingAtLeastOneBlaster = true;
+                }
+                if (!isHoldingAtLeastOneBlaster)
+                {
+                    SceneManager.LoadScene("DroppedBlasters");
+                }
+            }
         }   
     }
 

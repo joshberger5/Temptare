@@ -56,6 +56,10 @@ public class LaunchProjectile : MonoBehaviour
         isHeld = false;
     }
 
+    public bool getIsHeld() {
+        return isHeld;
+    }
+
     public void Fire() // spawns the projectile
     {
         GameObject newObject = Instantiate(projectilePrefab, startPoint.position, startPoint.rotation);
