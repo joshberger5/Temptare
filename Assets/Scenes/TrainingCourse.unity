@@ -371,6 +371,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1392a02bb0d1bc4094206ba379f41eb, type: 3}
+--- !u!1 &75427046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8276844239650062588, guid: d1392a02bb0d1bc4094206ba379f41eb, type: 3}
+  m_PrefabInstance: {fileID: 75427045}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &87648204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2104,6 +2109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: 
+  blasters:
+  - {fileID: 75427046}
+  - {fileID: 1226060385}
 --- !u!65 &513477817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2759,7 +2767,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6181103450505070113, guid: d1392a02bb0d1bc4094206ba379f41eb, type: 3}
   m_PrefabInstance: {fileID: 75427045}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 75427046}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f62c868c963f7748ab3fc4a274702ad, type: 3}
@@ -3401,6 +3409,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1392a02bb0d1bc4094206ba379f41eb, type: 3}
+--- !u!1 &1226060385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8276844239650062588, guid: d1392a02bb0d1bc4094206ba379f41eb, type: 3}
+  m_PrefabInstance: {fileID: 1226060384}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1235668778
 GameObject:
   m_ObjectHideFlags: 0

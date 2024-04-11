@@ -14,7 +14,8 @@ public class CameraMovement : MonoBehaviour
 
     private float moveAmount = 1.5f; // int holds the amount the camera should move
 
-    private GameObject[] blasters;
+    [SerializeField]
+    private GameObject[] blasters; // holds the blasters in the scene
 
     public void Move() // sets move to true
     { 
