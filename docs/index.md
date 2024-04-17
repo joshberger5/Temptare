@@ -7,8 +7,6 @@ layout: home
 ## Description
 Gun safety is a pressing issue in the United States at the moment. According to Megan L. Ranney et al., "firearm injury and death are a major public health problem, with more than 40,000 deaths and an estimated 85,000-130,000[^2]". Additionally, there are approximately 20 instances in which hunters accidentally shoot a human instead of a deer each year in the United States[^3]. Therefore, something needs to be done to reduce the number of people harmed or killed by guns each year. Educating people on where to point the gun and when to pull the trigger could be a possible solution. That's why I made Temptare. Temptare is a Virtual Reality video game intended to replicate Call of Duty: Modern Warfare II's Training Course mixed with elements from the Men in Black: Alien Attack ride at Universal Studios in Orlando, Florida. Virtual Reality was chosen as the medium for Temptare, because Virtual Reality has the potential to increase the user's learner enjoyment (motivation)[^4] and immersion[^5] over traditional learning techniques. Additionally, Virtual Reality can be an effective means of eliminating risks, because it takes guns out of beginners hands and operates in a safe, controlled environment[^6].
 
-![](./TemptareVideo.mp4)
-
 ----
 [^1]: Temptare means to try or attempt in Latin, which is fitting since this is my first attempt at game development.
 [^2]: Megan L. Ranney, Frederica R. ConrSey, Leah Perkinson, Stefanie Friedhoff, Rory Smith, and Claire Wardle. How Americans Encounter Guns: Mixed Methods Content Analysis of Youtube and Internet Search Data. _Preventive Medicine_, 165:107258, 2022.
