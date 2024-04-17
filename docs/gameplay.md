@@ -1,6 +1,6 @@
 ---
-title: Home
-layout: home
+title: Gameplay
+layout: default
 nav_order: 2
 ---
 
