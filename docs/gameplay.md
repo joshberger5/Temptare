@@ -12,8 +12,7 @@ nav_order: 2
 <img src="./Images/Range.png"/>
 
 ### Training Course
-<img src="./Images/TrainingCourse1.png"/>
-<img src="./Images/TrainingCourse2.png"/>
+<img src="./Images/TrainingCourse1.png" width="50%" height="50%"/><img src="./Images/TrainingCourse2.png" width="50%" height="50%"/>
 <img src="./Images/TrainingCourse3.png"/>
 <img src="./Images/TrainingCourse4.png"/>
 <img src="./Images/TrainingCourse5.png"/>
