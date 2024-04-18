@@ -31,13 +31,12 @@ nav_order: 2
 <style>
 /* custom image settings, mades images half-sized, so they can go side by side */
 #cIMG {
-    width: 48%;
-    height: 48%;
-    padding: 2%;
+    width: 50%;
+    height: 50%;
 }
 /* additional settings for custom images on the right, moves them over to the right at a magnitude of the total padding for the two side by side images */
 .rCIMG {
     position: relative;
-    left: 4%;
+    left: 1%;
 }
 </style>
