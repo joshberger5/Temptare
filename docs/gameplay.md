@@ -4,7 +4,8 @@ layout: default
 nav_order: 2
 ---
 
-## Gameplay
+# Gameplay Image Gallery
+## Scenes
 ### Main Menu
 <img src="./Images/MainMenu.png"/>
 
