@@ -8,16 +8,11 @@ nav_order: 2
 ## Scenes
 
 <div style="clear: both">
-    <h3 style="float: left">Main Menu</h3>
+    <h3 style="float: left"><a href="./Scenes/mainMenu.html" Main Menu></a></h3>
     <h3 style="float: right">Range</h3>
 </div>
 <hr />
-
-### [Main Menu](./Scenes/mainMenu.html)
-<img src="./Images/MainMenu.png"/>
-
-### Range
-<img src="./Images/Range.png"/>
+<img src="./Images/MainMenu.png"/><img src="./Images/Range.png" width="48%" class="rIMG"/>
 
 ### Training Course
 <img src="./Images/TrainingCourse1.png"/><img src="./Images/TrainingCourse2.png" width="48%" class="rIMG"/>
