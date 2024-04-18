@@ -6,7 +6,7 @@ nav_order: 2
 
 # Gameplay Image Gallery
 ## Scenes
-### Main Menu
+### [Main Menu]({{./Scenes/mainMenu.md}})
 <img src="./Images/MainMenu.png"/>
 
 ### Range
