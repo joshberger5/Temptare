@@ -13,22 +13,17 @@ nav_order: 2
 
 ### Training Course
 <img src="./Images/TrainingCourse1.png" width="50%" height="50%"/><img src="./Images/TrainingCourse2.png" width="50%" height="50%"/>
-<img src="./Images/TrainingCourse3.png"/>
-<img src="./Images/TrainingCourse4.png"/>
-<img src="./Images/TrainingCourse5.png"/>
-<img src="./Images/TrainingCourse6.png"/>
+<img src="./Images/TrainingCourse3.png" width="50%" height="50%"/><img src="./Images/TrainingCourse4.png" width="50%" height="50%"/>
+<img src="./Images/TrainingCourse5.png" width="50%" height="50%"/><img src="./Images/TrainingCourse6.png" width="50%" height="50%"/>
 
 ### Winning
 <img src="./Images/Win.png"/>
 
 ### Losing
-<img src="./Images/Lose1.png"/>
-<img src="./Images/Lose2.png"/>
+<img src="./Images/Lose1.png" width="50%" height="50%"/><img src="./Images/Lose2.png" width="50%" height="50%"/>
 
 ### Self Harm Prevention
-<img src="./Images/SelfHarmPrevention1.png"/>
-<img src="./Images/SelfHarmPrevention2.png"/>
+<img src="./Images/SelfHarmPrevention1.png" width="50%" height="50%"/><img src="./Images/SelfHarmPrevention2.png" width="50%" height="50%"/>
 
 ### Dropping Guns in Training Course
-<img src="./Images/DroppedGunsPrevention1.png"/>
-<img src="./Images/DroppedGunsPrevention1.png"/>
+<img src="./Images/DroppedGunsPrevention1.png" width="50%" height="50%"/><img src="./Images/DroppedGunsPrevention2.png" width="50%" height="50%"/>
