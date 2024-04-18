@@ -8,7 +8,7 @@ nav_order: 2
 ## Scenes
 
 <div style="clear: both">
-    <h3 style="float: left"><a href="./Scenes/mainMenu.html" Main Menu></a></h3>
+    <h3 style="float: left"><a href="./Scenes/mainMenu.html">Main Menu</a></h3>
     <h3 style="float: right">Range</h3>
 </div>
 <hr />
