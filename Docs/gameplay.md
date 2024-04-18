@@ -7,9 +7,9 @@ nav_order: 2
 # Gameplay Image Gallery
 ## Scenes
 
-<div style="clear: both">
-    <h3 style="float: left"><a href="./Scenes/mainMenu.html">Main Menu</a></h3>
-    <h3 style="float: right">Range</h3>
+<div style="clear: both; margin-block-start: 2em;">
+    <h3 style="float: left; width: 51%"><a href="./Scenes/mainMenu.html">Main Menu</a></h3>
+    <h3 style="float: left">Range</h3>
 </div>
 <hr />
 <img src="./Images/MainMenu.png"/><img src="./Images/Range.png" width="48%" class="rIMG"/>
