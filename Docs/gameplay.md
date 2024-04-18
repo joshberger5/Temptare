@@ -10,7 +10,7 @@ nav_order: 2
 <div style="clear: both">
     <h3 style="float: left">Main Menu</h3>
     <h3 style="float: right">Range</h3>
-<div>
+</div>
 <hr />
 
 ### [Main Menu](./Scenes/mainMenu.html)
