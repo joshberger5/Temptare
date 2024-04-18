@@ -19,17 +19,17 @@ nav_order: 2
 <img src="./Images/TrainingCourse3.png"/><img src="./Images/TrainingCourse4.png" width="48%" class="rIMG"/>
 <img src="./Images/TrainingCourse5.png"/><img src="./Images/TrainingCourse6.png" class="rIMG"/>
 
-### Winning
-<img src="./Images/Win.png"/>
-
-### Losing
-<img src="./Images/Lose1.png"/><img src="./Images/Lose2.png" class="rIMG"/>
-
 ### Self Harm Prevention
 <img src="./Images/SelfHarmPrevention1.png"/><img src="./Images/SelfHarmPrevention2.png" class="rIMG"/>
 
 ### Dropping Guns in Training Course
 <img src="./Images/DroppedGunsPrevention1.png"/><img src="./Images/DroppedGunsPrevention2.png" class="rIMG"/>
+
+### Losing
+<img src="./Images/Lose1.png"/><img src="./Images/Lose2.png" class="rIMG"/>
+
+### Winning
+<img src="./Images/Win.png"/>
 
 <style>
 /* image settings, mades images half-sized, so they can go side by side */
