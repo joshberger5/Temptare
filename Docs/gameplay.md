@@ -9,7 +9,7 @@ nav_order: 2
 
 <div style="clear: both;">
     <h3 style="float: left; width: 51%"><a href="./Scenes/mainMenu.html">Main Menu</a></h3>
-    <h3 style="float: left">Range</h3>
+    <h3 style="float: left"><a href="./Scenes/range.html">Range</a></h3>
 </div>
 <img src="./Images/MainMenu.png"/><img src="./Images/Range.png" width="48%" class="rIMG"/>
 
