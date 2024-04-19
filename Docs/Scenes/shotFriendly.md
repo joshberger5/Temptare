@@ -6,3 +6,7 @@ nav_order: 6
 ---
 
 # Shot Friendly Scene
+
+![](../SceneImages/ShotFriendly.png)
+
+Add description here...
