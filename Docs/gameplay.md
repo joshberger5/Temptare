@@ -11,11 +11,11 @@ nav_order: 2
     <h3 style="float: left; width: 51%"><a href="./Scenes/mainMenu.html">Main Menu</a></h3>
     <h3 style="float: left"><a href="./Scenes/range.html">Range</a></h3>
 </div>
-<img src="./GameplayImages/MainMenu.png"/><img src="./GameplayImages/Range.png" width="48%" class="rIMG"/>
+<img src="./GameplayImages/MainMenu.png"/><img src="./GameplayImages/Range.png" class="rIMG"/>
 
 ### [Training Course](./Scenes/trainingCourse.html)
-<img src="./GameplayImages/TrainingCourse1.png"/><img src="./GameplayImages/TrainingCourse2.png" width="48%" class="rIMG"/>
-<img src="./GameplayImages/TrainingCourse3.png"/><img src="./GameplayImages/TrainingCourse4.png" width="48%" class="rIMG"/>
+<img src="./GameplayImages/TrainingCourse1.png"/><img src="./GameplayImages/TrainingCourse2.png" class="rIMG"/>
+<img src="./GameplayImages/TrainingCourse3.png"/><img src="./GameplayImages/TrainingCourse4.png" class="rIMG"/>
 <img src="./GameplayImages/TrainingCourse5.png"/><img src="./GameplayImages/TrainingCourse6.png" class="rIMG"/>
 
 ### [Self Harm Prevention](./Scenes/selfHarmPrevention.html)
