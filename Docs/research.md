@@ -32,8 +32,7 @@ completion date in March of this year by researchers at the University of Alabam
 
 [^2]: Camilla Elena Magi, Stefano Bambi, Paolo Iovino, Khadija El Aoufy, Carla Amato, Chiara Balestri, Laura Rasero, and Yari Longobucco. Virtual Reality and Augmented Reality Training in Disaster Medicine Courses for Students in Nursing: A Scoping Review of Adoptable Tools. _Behavioral Sciences_, 13(7):616, 2023.
 
-[^3]: Esther Z Barsom, Maurits Graafland, and Marlies P Schijven. Systematic Review on the Effectiveness of Augmented Reality Applications in Medical Training. _Surgical Endoscopy_, 30:4174–4183,
-2016.
+[^3]: Esther Z Barsom, Maurits Graafland, and Marlies P Schijven. Systematic Review on the Effectiveness of Augmented Reality Applications in Medical Training. _Surgical Endoscopy_, 30:4174–4183, 2016.
 
 [^4]: Raimundo Castaño-Calle, Amparo Jiménez-Vivas, Raquel Poy Castro, María Isabel Calvo Álvarez, and Cristina Jenaro. Perceived Benefits of Future Teachers on the Usefulness of Virtual and Augmented Reality in the Teaching-Learning Process. _Education Sciences_, 12(12):855, 2022.
 
