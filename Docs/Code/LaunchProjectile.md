@@ -1,10 +1,10 @@
 ---
-title: Launch Projectile Script
+title: Launch Projectile
 layout: default
 parent: Code
 ---
 
-# [Launch Projectile Script](https://github.com/joshberger5/Temptare/blob/second/Assets/LaunchProjectile.cs)
+# [Launch Projectile](https://github.com/joshberger5/Temptare/blob/second/Assets/LaunchProjectile.cs)
 This script contains the mechanics for the blasters, such as firing projectiles, keeping score, and checking where the user is aiming.
 
 ## Variables
