@@ -7,7 +7,7 @@ nav_order: 3
 
 # Training Course Scene
 
-![](../SceneImages/TrainingCourse1.png)
+<img id="mainIMG" src="../SceneImages/TrainingCourse1.png"/>
 <img src="../SceneImages/TrainingCourse2.png"/><img src="../SceneImages/TrainingCourse3.png"/>
 <img src="../SceneImages/TrainingCourse4.png"/><img src="../SceneImages/TrainingCourse5.png"/>
 <img src="../SceneImages/TrainingCourse6.png"/><img src="../SceneImages/TrainingCourse7.png"/>
@@ -17,9 +17,14 @@ nav_order: 3
 Add description here...
 
 <style>
-/* image settings, mades images half-sized, so they can go side by side */
+/* image settings, makes images half-sized, so they can go side by side */
 img {
     width: 50%;
     height: 50%;
+}
+/
+#mainIMG {
+    height: 100%;
+    width: 100%;
 }
 </style>

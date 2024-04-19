@@ -31,7 +31,7 @@ This is the view at certain points during the game with the headset on, organize
 <img src="./GameplayImages/Win.png"/>
 
 <style>
-/* image settings, mades images half-sized, so they can go side by side */
+/* image settings, makes images half-sized, so they can go side by side */
 img {
     width: 50%;
     height: 50%;
