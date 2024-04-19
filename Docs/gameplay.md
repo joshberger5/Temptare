@@ -13,21 +13,21 @@ nav_order: 2
 </div>
 <img src="./Images/MainMenu.png"/><img src="./Images/Range.png" width="48%" class="rIMG"/>
 
-### Training Course
+### [Training Course](./Scenes/trainingCourse.html)
 <img src="./Images/TrainingCourse1.png"/><img src="./Images/TrainingCourse2.png" width="48%" class="rIMG"/>
 <img src="./Images/TrainingCourse3.png"/><img src="./Images/TrainingCourse4.png" width="48%" class="rIMG"/>
 <img src="./Images/TrainingCourse5.png"/><img src="./Images/TrainingCourse6.png" class="rIMG"/>
 
-### Self Harm Prevention
+### [Self Harm Prevention](./Scenes/selfHarmPrevention.html)
 <img src="./Images/SelfHarmPrevention1.png"/><img src="./Images/SelfHarmPrevention2.png" class="rIMG"/>
 
-### Dropping Guns in Training Course
+### [Dropping Guns in Training Course](./Scenes/droppedGunsPrevention.html)
 <img src="./Images/DroppedGunsPrevention1.png"/><img src="./Images/DroppedGunsPrevention2.png" class="rIMG"/>
 
-### Losing
+### [Losing](./Scenes/lose.html)
 <img src="./Images/Lose1.png"/><img src="./Images/Lose2.png" class="rIMG"/>
 
-### Winning
+### [Winning](./Scenes/win.html)
 <img src="./Images/Win.png"/>
 
 <style>
