@@ -1,5 +1,5 @@
 ---
-title: Gameplay
+title: Gameplay Image Gallery
 layout: default
 nav_order: 2
 ---
