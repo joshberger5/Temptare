@@ -5,7 +5,7 @@ nav_order: 2
 ---
 
 # Gameplay Image Gallery
-## Scenes
+This is the view at certain points during the game with the headset on, organized by scene.
 
 <div style="clear: both;">
     <h3 style="float: left; width: 51%"><a href="./Scenes/mainMenu.html">Main Menu</a></h3>
