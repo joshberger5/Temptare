@@ -7,6 +7,8 @@ has_toc: false
 ---
 
 # Code
+** I plan to add a site for every major script. **
+
 ## What is a Script and What is it used for?
 "Scripts are behavior components that can be applied to GameObjects and modified in the Unity Inspector. A script is made up of C# code that is executed during gameplay. Scripts can also be used to create tools in Unity to modify the development process."[^1]
 
