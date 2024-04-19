@@ -24,7 +24,7 @@ nav_order: 2
 ### [Dropping Guns in Training Course](./Scenes/droppedGunsPrevention.html)
 <img src="./GameplayImages/DroppedGunsPrevention1.png"/><img src="./GameplayImages/DroppedGunsPrevention2.png" class="rIMG"/>
 
-### [Losing](./Scenes/lose.html)
+### [Shooting a Friendly](./Scenes/shotFriendly.html)
 <img src="./GameplayImages/Lose1.png"/><img src="./GameplayImages/Lose2.png" class="rIMG"/>
 
 ### [Winning](./Scenes/win.html)
