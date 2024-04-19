@@ -22,7 +22,6 @@ img {
     width: 50%;
     height: 50%;
 }
-/
 #mainIMG {
     height: 100%;
     width: 100%;
