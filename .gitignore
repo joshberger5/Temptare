@@ -16,3 +16,18 @@ vendor/
 
 # Ignore Unity .meta files
 *.meta
+
+# Ignore Unity stuff I didn't make
+Assets/Samples/*
+Assets/TextMesh Pro/*
+Assets/XR/
+Assets/XRI/
+Build_BurstDebugInformation_DoNotShip/
+Library/
+Logs/
+Packages/
+ProjectSettings/
+UserSettings/
+
+# Ignore build because it's way too big
+Build.apk
