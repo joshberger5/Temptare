@@ -2,7 +2,10 @@ name: CI
 
 on:
   push:
-    branches: ["second"]
+    branches: 
+      - "second"
+    paths: 
+      - "Docs/**"
   pull_request:
 
 jobs:
