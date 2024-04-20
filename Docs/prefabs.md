@@ -28,7 +28,7 @@ nav_order: 4
 - each wall has a box collider
 
 ### Body
-<img id="mainIMG" src="../PrefabImages/BodyPrefab.png"/>
+<img id="mainIMG" src="./PrefabImages/BodyPrefab.png"/>
 - resembles a (red or green) cardboard cutout of a person 
 - 7 cubes:
   - head
@@ -40,7 +40,7 @@ nav_order: 4
   - left leg
 - each cube had to have a tag (target or friendly) and a box collider for the bullet collision to work
 - two different types: Body F (green) and Body T (red)
-<img src="../PrefabImages/BodyPrefabGreen.png"/><img src="../PrefabImages/BodyPrefabRed.png"/>
+<img src="./PrefabImages/BodyPrefabGreen.png"/><img src="./PrefabImages/BodyPrefabRed.png"/>
 
 ### Target 
 - red cube
