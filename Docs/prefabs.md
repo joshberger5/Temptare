@@ -40,7 +40,8 @@ nav_order: 4
   - left leg
 - each cube had to have a tag (target or friendly) and a box collider for the bullet collision to work
 - two different types: Body F (green) and Body T (red)
-<img src="./PrefabImages/BodyPrefabGreen.png"/><img src="./PrefabImages/BodyPrefabRed.png"/>
+
+<img src="./PrefabImages/BodyPrefabGreen.png"/><img class="rIMG" src="./PrefabImages/BodyPrefabRed.png"/>
 
 ### Target 
 - red cube
@@ -111,6 +112,12 @@ img {
     width: 50%;
     height: 50%;
 }
+/* additional settings for images on the right, moves them over to the right at a magnitude of the total padding for the two side by side images */
+.rIMG {
+    position: relative;
+    left: 1%;
+}
+/* resets to default settings for images intended to be by themself */
 #mainIMG {
     height: 100%;
     width: 100%;
