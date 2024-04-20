@@ -5,7 +5,7 @@ nav_order: 4
 ---
 
 # Prefabs
-**I plan to add images for nearly all the Prefabs.**
+**I plan to add images for nearly all the Prefabs and redo their descriptions.**
 
 "Prefabs are a special type of component that allows fully configured GameObjects to be saved in the Project for reuse. These assets can then be shared between scenes, or even other projects without having to be configured again." [^1]
 
@@ -13,6 +13,9 @@ nav_order: 4
 - a spherical GameObject that is spawned by the Blaster
 
 ### Blaster:
+
+<img id="mainIMG" src="./PrefabImages/BlasterPrefab.png"/>
+
 - charcoal grey
 - resembles an umbrella handle
 - mesh was taken from the Unity VR (Core) Template in Unity Hub
@@ -28,6 +31,7 @@ nav_order: 4
 - each wall has a box collider
 
 ### Body
+
 <img id="mainIMG" src="./PrefabImages/BodyPrefab.png"/>
 - resembles a (red or green) cardboard cutout of a person 
 - 7 cubes:
