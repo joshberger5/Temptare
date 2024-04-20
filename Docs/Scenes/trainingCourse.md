@@ -22,6 +22,7 @@ img {
     width: 50%;
     height: 50%;
 }
+/* resets to default settings for images intended to be by themself */
 #mainIMG {
     height: 100%;
     width: 100%;
