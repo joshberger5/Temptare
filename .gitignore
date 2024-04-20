@@ -28,6 +28,8 @@ Logs/
 Packages/
 ProjectSettings/
 UserSettings/
+Temp/
+
 
 # Ignore build because it's way too big
 Build.apk
