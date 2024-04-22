@@ -32,7 +32,7 @@ This is the view at certain points during the game with the headset on, organize
 
 
 
-## [Gameplay Video](https://www.youtube.com/watch?v=iVY4b_V9NLc)
+### <a href="https://www.youtube.com/watch?v=iVY4b_V9NLc" target="_blank" rel="noopener noreferrer">Gameplay Video</a>
 
 <style>
 /* image settings, makes images half-sized, so they can go side by side */
