@@ -30,6 +30,10 @@ This is the view at certain points during the game with the headset on, organize
 ### [Winning](./Scenes/win.html)
 <img src="./GameplayImages/Win.png"/>
 
+
+
+## [Gameplay Video](https://www.youtube.com/watch?v=iVY4b_V9NLc)
+
 <style>
 /* image settings, makes images half-sized, so they can go side by side */
 img {
