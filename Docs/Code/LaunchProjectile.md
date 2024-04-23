@@ -2,6 +2,7 @@
 title: Launch Projectile
 layout: default
 parent: Code
+nav_order: 1
 ---
 
 # [Launch Projectile](https://github.com/joshberger5/Temptare/blob/second/Assets/LaunchProjectile.cs)

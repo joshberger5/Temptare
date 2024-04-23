@@ -2,6 +2,7 @@
 title: Projectile
 layout: default
 parent: Code
+nav_order: 2
 ---
 
 # [Projectile](https://github.com/joshberger5/Temptare/blob/second/Assets/Projectile.cs)
