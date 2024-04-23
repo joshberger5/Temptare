@@ -18,6 +18,7 @@ nav_order: 4
 "Rigidbodies enable your GameObjects to act under the control of physics. The Rigidbody can receive forces and torque to make your objects move in a realistic way. Any GameObject must contain a Rigidbody to be influenced by gravity, act under added forces via scripting, or interact with other objects through the NVIDIA PhysX physics engine." [^4]
 
 "Collider components define the shape of an object for the purposes of physical collisions. A collider, which is invisible, need not be the exact same shape as the object's mesh and in fact, a rough approximation is often more efficient and indistinguishable in gameplay." [^5]
+  A BoxCollider is a type of Collider.
 
 ### Blaster:
 
@@ -118,7 +119,7 @@ nav_order: 4
 <img id="mainIMG" src="./PrefabImages/SelfHarmHandlerPrefab.png"/>
 
 - A transparent object that is directly behind the user so aiming at themself can be detected
-- If it is aimed at, the SuicidePrevention scene is loaded
+- If it is aimed at, the SelfHarmPrevention scene is loaded
 
 ### WarningCanvas
 
