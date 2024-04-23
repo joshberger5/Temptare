@@ -5,8 +5,6 @@ nav_order: 4
 ---
 
 # Prefabs
-**I plan to add images for nearly all the Prefabs and redo their descriptions.**
-
 "Prefabs are a special type of component that allows fully configured GameObjects to be saved in the Project for reuse. These assets can then be shared between scenes, or even other projects without having to be configured again." [^1]
 
 ### Key Terms
