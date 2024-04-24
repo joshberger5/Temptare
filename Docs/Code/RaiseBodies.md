@@ -1,8 +1,10 @@
 ---
 title: Raise Bodies
 layout: default
-parent: Code
-nav_order: 12
+parent: Camera Movement
+nav_order: 4
+has_children: true
+has_toc: false
 ---
 
 # [Flip Bodies](https://github.com/joshberger5/Temptare/blob/second/Assets/RaiseBodies.cs)

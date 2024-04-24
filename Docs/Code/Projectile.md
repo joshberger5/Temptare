@@ -1,8 +1,8 @@
 ---
 title: Projectile
 layout: default
-parent: Code
-nav_order: 2
+parent: Launch Projectile
+nav_order: 1
 ---
 
 # [Projectile](https://github.com/joshberger5/Temptare/blob/second/Assets/Projectile.cs)

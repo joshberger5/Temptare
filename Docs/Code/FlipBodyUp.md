@@ -1,8 +1,8 @@
 ---
 title: Flip Body Up
 layout: default
-parent: Code
-nav_order: 11
+parent: Flip Bodies
+nav_order: 1
 ---
 
 # [Flip Body Up](https://github.com/joshberger5/Temptare/blob/second/Assets/FlipBodyUp.cs)

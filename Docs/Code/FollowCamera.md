@@ -1,8 +1,8 @@
 ---
 title: Follow Camera
 layout: default
-parent: Code
-nav_order: 8
+parent: Camera Movement
+nav_order: 2
 ---
 
 # [Follow Camera](https://github.com/joshberger5/Temptare/blob/second/Assets/FollowCamera.cs)

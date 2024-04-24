@@ -1,8 +1,10 @@
 ---
 title: Flip Bodies
 layout: default
-parent: Code
-nav_order: 10
+parent: Camera Movement
+nav_order: 3
+has_children: true
+has_toc: false
 ---
 
 # [Flip Bodies](https://github.com/joshberger5/Temptare/blob/second/Assets/FlipBodies.cs)

@@ -2,7 +2,9 @@
 title: Persistent Variable Holder
 layout: default
 parent: Code
-nav_order: 5
+nav_order: 3
+has_children: true
+has_toc: false
 ---
 
 # [Persistent Variable Holder](https://github.com/joshberger5/Temptare/blob/second/Assets/PersistentVarHolder.cs)

@@ -1,8 +1,8 @@
 ---
 title: Display Aimed At Friendly
 layout: default
-parent: Code
-nav_order: 15
+parent: Persistent Variable Holder
+nav_order: 3
 ---
 
 # [Display Aimed At Friendly](https://github.com/joshberger5/Temptare/blob/second/Assets/DisplayAimedAtFriendly.cs)

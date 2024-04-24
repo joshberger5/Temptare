@@ -1,8 +1,8 @@
 ---
 title: Raise Body Up
 layout: default
-parent: Code
-nav_order: 13
+parent: Raise Bodies
+nav_order: 1
 ---
 
 # [Raise Body Up](https://github.com/joshberger5/Temptare/blob/second/Assets/RaiseBodyUp.cs)
