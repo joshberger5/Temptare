@@ -14,13 +14,38 @@ has_toc: false
 ----
 
 ## Before you look at the Scripts
-Something that shows up regularly in the code that you might be unfamiliar with is:
+These are some things that show up in the code that may be unfamiliar to you:
+
+### [SerializeField](https://docs.unity3d.com/ScriptReference/SerializeField.html)
+SerializeField adds a field in Unity's manual interface to either drag and drop a GameObject or Prefab or manually enter a value for the variable.
 ```csharp
 [SerializeField]
 variableType variableName = value;
 ```
-[SerializeField](https://docs.unity3d.com/ScriptReference/SerializeField.html) adds a field in Unity's manual interface to either drag and drop a GameObject or Prefab or manually enter a value for the variable.
+
+### MonoBehaviour.Start()
+The Start() method "is called on the frame when a script is enabled just before any of the Update methods are called the first time."[^2]
+
+### MonoBehaviour.Update()
+The Update() method "is called every frame."[^3]
+
+### MonoBehaviour.FixedUpdate()
+The FixedUpdate() method is similar to Update(), but it typically happens at a different fequency than once per frame. "The FixedUpdate frequency is more or less than Update. If the application runs at 25 frames per second (fps), Unity calls it approximately twice per frame, Alternatively, 100 fps causes approximately two rendering frames with one FixedUpdate."[^4]
+
+### MonoBehaviour.Awake()
+"Unity calls Awake when an enabled script instance is being loaded.
+
+Unity calls Awake on scripts derived from MonoBehaviour in the following scenarios:
+* The parent GameObject is active and initializes on Scene load
+* The parent GameObject goes from inactive to active
+* After initialization of a parent GameObject created with Object.Instantiate
+
+Use Awake to initialize variables or states before the application starts."[^5]
 
 ----
 
 [^1]: [UnityLearn](https://learn.unity.com/tutorial/working-with-scripts#)
+[^2]: [UnityDocs - Start](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html)
+[^3]: [UnityDocs - Update](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html)
+[^3]: [UnityDocs - FixedUpdate](https://docs.unity3d.com/ScriptReference/MonoBehaviour.FixedUpdate.html)
+[^5]: [UnityDocs - Awake](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html)
