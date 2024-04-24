@@ -9,14 +9,14 @@ nav_order: 4
 
 ### Key Terms
 
-"GameObjects are the fundamental objects in Unity that represent characters, props and scenery. They do not accomplish much in themselves but they act as containers for Components, which implement the real functionality." [^2]
+"**GameObjects** are the fundamental objects in Unity that represent characters, props and scenery. They do not accomplish much in themselves but they act as containers for Components, which implement the real functionality." [^2]
 
-"Components are the functional pieces of every GameObject. Components contain properties which you can edit to define the behavior of a GameObject." [^3]
+"**Components** are the functional pieces of every GameObject. Components contain properties which you can edit to define the behavior of a GameObject." [^3]
 
-"Rigidbodies enable your GameObjects to act under the control of physics. The Rigidbody can receive forces and torque to make your objects move in a realistic way. Any GameObject must contain a Rigidbody to be influenced by gravity, act under added forces via scripting, or interact with other objects through the NVIDIA PhysX physics engine." [^4]
+"**Rigidbodies** enable your GameObjects to act under the control of physics. The Rigidbody can receive forces and torque to make your objects move in a realistic way. Any GameObject must contain a Rigidbody to be influenced by gravity, act under added forces via scripting, or interact with other objects through the NVIDIA PhysX physics engine." [^4]
 
-"Collider components define the shape of an object for the purposes of physical collisions. A collider, which is invisible, need not be the exact same shape as the object's mesh and in fact, a rough approximation is often more efficient and indistinguishable in gameplay." [^5]
-  A BoxCollider is a type of Collider.
+"**Collider** components define the shape of an object for the purposes of physical collisions. A collider, which is invisible, need not be the exact same shape as the object's mesh and in fact, a rough approximation is often more efficient and indistinguishable in gameplay." [^5]
+- A **BoxCollider** is a type of Collider.
 
 ### Blaster:
 
