@@ -7,7 +7,7 @@ has_toc: false
 ---
 # Code
 ## What is a Script? What is it used for?
-"Scripts are behavior components that can be applied to GameObjects and modified in the Unity Inspector. A script is made up of C# code that is executed during gameplay. Scripts can also be used to create tools in Unity to modify the development process."[^1]
+"**Scripts** are behavior components that can be applied to GameObjects and modified in the Unity Inspector. A script is made up of C# code that is executed during gameplay. Scripts can also be used to create tools in Unity to modify the development process."[^1]
 
 ----
 
@@ -15,24 +15,26 @@ has_toc: false
 These are some things that show up in the code that may be unfamiliar to you:
 
 ### SerializeField
-SerializeField adds a field in Unity's manual interface to either drag and drop a GameObject or Prefab or manually enter a value for the variable.[^2]
+**SerializeField** adds a field in Unity's manual interface to either drag and drop a GameObject or Prefab or manually enter a value for the variable.[^2]
 ```csharp
 [SerializeField]
 variableType variableName = value;
 ```
 
-### [MonoBehaviour Methods:](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html)
+## [MonoBehaviour Methods:](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html)
 ### Start()
-The Start() method "is called on the frame when a script is enabled just before any of the Update methods are called the first time."[^3]
+The **Start()** method "is called on the frame when a script is enabled just before any of the Update methods are called the first time."[^3]
 
 ### Update()
-The Update() method "is called every frame."[^4]
+The **Update()** method "is called every frame."[^4]
 
 ### FixedUpdate()
-The FixedUpdate() method is similar to Update(), but it typically happens at a different fequency than once per frame. "The FixedUpdate frequency is more or less than Update. If the application runs at 25 frames per second (fps), Unity calls it approximately twice per frame, Alternatively, 100 fps causes approximately two rendering frames with one FixedUpdate."[^5]
+The **FixedUpdate()** method is similar to Update(), but it typically happens at a different fequency than once per frame. 
+
+"MonoBehaviour.FixedUpdate has the frequency of the physics system; it is called every fixed frame-rate frame. Compute Physics system calculations after FixedUpdate... The FixedUpdate frequency is more or less than Update. If the application runs at 25 frames per second (fps), Unity calls it approximately twice per frame, Alternatively, 100 fps causes approximately two rendering frames with one FixedUpdate."[^5]
 
 ### Awake()
-"Unity calls Awake when an enabled script instance is being loaded.
+"Unity calls **Awake** when an enabled script instance is being loaded.
 
 Unity calls Awake on scripts derived from MonoBehaviour in the following scenarios:
 * The parent GameObject is active and initializes on Scene load
