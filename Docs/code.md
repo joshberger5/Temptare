@@ -21,17 +21,19 @@ These are some things that show up in the code that may be unfamiliar to you:
 variableType variableName = value;
 ```
 
-## [MonoBehaviour Methods:](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html)
+## MonoBehaviour Methods:
+"**MonoBehaviour** is a base class that many Unity scripts derive from. MonoBehaviour offers life cycle functions that make it easier to develop with Unity."[^3]
+
 ### Start()
-The **Start()** method "is called on the frame when a script is enabled just before any of the Update methods are called the first time."[^3]
+The **Start()** method "is called on the frame when a script is enabled just before any of the Update methods are called the first time."[^4]
 
 ### Update()
-The **Update()** method "is called every frame."[^4]
+The **Update()** method "is called every frame."[^5]
 
 ### FixedUpdate()
 The **FixedUpdate()** method is similar to Update(), but it typically happens at a different fequency than once per frame. 
 
-"MonoBehaviour.FixedUpdate has the frequency of the physics system; it is called every fixed frame-rate frame. Compute Physics system calculations after FixedUpdate... The FixedUpdate frequency is more or less than Update. If the application runs at 25 frames per second (fps), Unity calls it approximately twice per frame, Alternatively, 100 fps causes approximately two rendering frames with one FixedUpdate."[^5]
+"MonoBehaviour.FixedUpdate has the frequency of the physics system; it is called every fixed frame-rate frame. Compute Physics system calculations after FixedUpdate... The FixedUpdate frequency is more or less than Update. If the application runs at 25 frames per second (fps), Unity calls it approximately twice per frame, Alternatively, 100 fps causes approximately two rendering frames with one FixedUpdate."[^6]
 
 ### Awake()
 "Unity calls **Awake** when an enabled script instance is being loaded.
@@ -41,13 +43,14 @@ Unity calls Awake on scripts derived from MonoBehaviour in the following scenari
 * The parent GameObject goes from inactive to active
 * After initialization of a parent GameObject created with Object.Instantiate
 
-Use Awake to initialize variables or states before the application starts."[^6]
+Use Awake to initialize variables or states before the application starts."[^7]
 
 ----
 
 [^1]: [UnityLearn](https://learn.unity.com/tutorial/working-with-scripts#)
 [^2]: [UnityDocs - SerializeField](https://docs.unity3d.com/ScriptReference/SerializeField.html)
-[^3]: [UnityDocs - Start](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html)
-[^4]: [UnityDocs - Update](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html)
-[^5]: [UnityDocs - FixedUpdate](https://docs.unity3d.com/ScriptReference/MonoBehaviour.FixedUpdate.html)
-[^6]: [UnityDocs - Awake](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html)
+[^3]: [UnityDocs - MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html)
+[^4]: [UnityDocs - Start](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html)
+[^5]: [UnityDocs - Update](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html)
+[^6]: [UnityDocs - FixedUpdate](https://docs.unity3d.com/ScriptReference/MonoBehaviour.FixedUpdate.html)
+[^7]: [UnityDocs - Awake](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html)
