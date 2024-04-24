@@ -8,8 +8,6 @@ nav_order: 4
 # [StartMovement](https://github.com/joshberger5/Temptare/blob/second/Assets/StartMovement.cs)
 This script starts the camera's movement in the TrainingCourse scene. It is attached to the red wall in front of the user, so when the user shoots it, the user starts moving along the predetermined route.
 
-I modified the code from [this tutorial](https://learn.unity.com/tutorial/implement-data-persistence-between-scenes#634f8281edbc2a65c86270cb).
-
 ## Variables
 ```csharp
 [SerializeField]
