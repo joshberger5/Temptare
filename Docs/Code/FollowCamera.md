@@ -5,6 +5,7 @@ parent: Code
 nav_order: 6
 ---
 
+![](./CameraMovementHierarchy.png)
 # [Follow Camera](https://github.com/joshberger5/Temptare/blob/second/Assets/FollowCamera.cs)
 This script makes the object perpetually stay in front of and face the camera, it was made to display the score in front of the user for the Range and Training Course scenes.
 

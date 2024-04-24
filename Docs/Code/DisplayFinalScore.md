@@ -5,6 +5,7 @@ parent: Code
 nav_order: 16
 ---
 
+![](./PersistentVarHolderHierarchy.png)
 # [Display Final Score](https://github.com/joshberger5/Temptare/blob/second/Assets/DisplayFinalScore.cs)
 This script appends the score from the Training Course scene to the message the script is attached to. This is for the Win scene and the losing scenes.
 

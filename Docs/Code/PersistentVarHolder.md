@@ -5,6 +5,7 @@ parent: Code
 nav_order: 12
 ---
 
+![](./PersistentVarHolderHierarchy.png)
 # [Persistent Variable Holder](https://github.com/joshberger5/Temptare/blob/second/Assets/PersistentVarHolder.cs)
 This script is a Singleton that holds the variables that should keep their values from scene to scene. It is meant to keep the score and number of times the user aimed at friendly targets during the TrainingCourse scene so they can be displayed when you are taken to the Win scene or one of the losing scenes.
 

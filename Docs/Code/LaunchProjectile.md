@@ -5,6 +5,7 @@ parent: Code
 nav_order: 1
 ---
 
+![](./LaunchProjectileHierarchy.png)
 # [Launch Projectile](https://github.com/joshberger5/Temptare/blob/second/Assets/LaunchProjectile.cs)
 This script contains the mechanics for the blasters, such as firing projectiles, keeping score, and checking where the user is aiming.
 

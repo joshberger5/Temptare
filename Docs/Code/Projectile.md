@@ -5,6 +5,7 @@ parent: Code
 nav_order: 2
 ---
 
+![](./LaunchProjectileHierarchy.png)
 # [Projectile](https://github.com/joshberger5/Temptare/blob/second/Assets/Projectile.cs)
 This script controls the mechanics for projectiles once they are fired.
 

@@ -5,6 +5,7 @@ parent: Code
 nav_order: 8
 ---
 
+![](./CameraMovementHierarchy.png)
 # [Flip Body Up](https://github.com/joshberger5/Temptare/blob/second/Assets/FlipBodyUp.cs)
 This script is attached to a body/target and rotates it from lying down to standing up.
 

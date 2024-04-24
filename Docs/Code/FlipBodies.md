@@ -5,6 +5,7 @@ parent: Code
 nav_order: 7
 ---
 
+![](./CameraMovementHierarchy.png)
 # [Flip Bodies](https://github.com/joshberger5/Temptare/blob/second/Assets/FlipBodies.cs)
 This script makes each body/target in the given array start flipping up by setting flip to true in the body/target's FlipBodyUp script. This script is attached to CameraBodyFlipper GameObjects.
 
