@@ -2,6 +2,7 @@
 title: Raise Body Up
 layout: default
 parent: Raise Bodies
+grand_parent: Camera Movement
 nav_order: 1
 ---
 

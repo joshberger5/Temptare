@@ -2,6 +2,7 @@
 title: Display Final Score
 layout: default
 parent: Persistent Variable Holder
+grand_parent: Code
 nav_order: 4
 ---
 

@@ -2,6 +2,7 @@
 title: Follow Camera
 layout: default
 parent: Camera Movement
+grand_parent: Code
 nav_order: 2
 ---
 

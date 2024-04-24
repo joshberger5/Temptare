@@ -2,6 +2,7 @@
 title: Projectile
 layout: default
 parent: Launch Projectile
+grand_parent: Code
 nav_order: 1
 ---
 
