@@ -1,9 +1,8 @@
 ---
 title: Raise Body Up
 layout: default
-parent: Raise Bodies
-grand_parent: Camera Movement
-nav_order: 1
+parent: Code
+nav_order: 10
 ---
 
 # [Raise Body Up](https://github.com/joshberger5/Temptare/blob/second/Assets/RaiseBodyUp.cs)

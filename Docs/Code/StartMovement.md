@@ -1,9 +1,8 @@
 ---
 title: Start Movement
 layout: default
-parent: Camera Movement
-grand_parent: Code
-nav_order: 1
+parent: Code
+nav_order: 5
 ---
 
 # [StartMovement](https://github.com/joshberger5/Temptare/blob/second/Assets/StartMovement.cs)

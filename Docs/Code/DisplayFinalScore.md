@@ -1,9 +1,8 @@
 ---
 title: Display Final Score
 layout: default
-parent: Persistent Variable Holder
-grand_parent: Code
-nav_order: 4
+parent: Code
+nav_order: 16
 ---
 
 # [Display Final Score](https://github.com/joshberger5/Temptare/blob/second/Assets/DisplayFinalScore.cs)

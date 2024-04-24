@@ -3,8 +3,6 @@ title: Launch Projectile
 layout: default
 parent: Code
 nav_order: 1
-has_children: true
-has_toc: false
 ---
 
 # [Launch Projectile](https://github.com/joshberger5/Temptare/blob/second/Assets/LaunchProjectile.cs)

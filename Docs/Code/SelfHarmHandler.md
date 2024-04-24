@@ -1,9 +1,8 @@
 ---
 title: Self Harm Handler Position
 layout: default
-parent: Camera Movement
-grand_parent: Code
-nav_order: 5
+parent: Code
+nav_order: 11
 ---
 
 # [Self Harm Handler Position](https://github.com/joshberger5/Temptare/blob/second/Assets/SelfHarmHandlerPos.cs)

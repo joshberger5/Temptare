@@ -1,9 +1,8 @@
 ---
 title: Range Reset
 layout: default
-parent: Persistent Variable Holder
-grand_parent: Code
-nav_order: 1
+parent: Code
+nav_order: 13
 ---
 
 # [Range Reset](https://github.com/joshberger5/Temptare/blob/second/Assets/RangeReset.cs)

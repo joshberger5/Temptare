@@ -1,9 +1,8 @@
 ---
 title: Been Shot
 layout: default
-parent: Launch Projectile
-grand_parent: Code
-nav_order: 2
+parent: Code
+nav_order: 3
 ---
 
 # [Been Shot](https://github.com/joshberger5/Temptare/blob/second/Assets/PersistentVarHolder.cs)

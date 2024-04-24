@@ -1,9 +1,8 @@
 ---
 title: Training Course Reset
 layout: default
-parent: Persistent Variable Holder
-grand_parent: Code
-nav_order: 2
+parent: Code
+nav_order: 14
 ---
 
 # [Training Course Reset](https://github.com/joshberger5/Temptare/blob/second/Assets/TrainingCourseReset.cs)

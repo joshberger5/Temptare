@@ -2,9 +2,7 @@
 title: Camera Movement
 layout: default
 parent: Code
-nav_order: 2
-has_children: true
-has_toc: false
+nav_order: 4
 ---
 
 # [Camera Movement](https://github.com/joshberger5/Temptare/blob/second/Assets/CameraMovement.cs)

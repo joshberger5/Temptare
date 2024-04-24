@@ -1,9 +1,8 @@
 ---
 title: Flip Body Up
 layout: default
-parent: Flip Bodies
-grand_parent: Camera Movement
-nav_order: 1
+parent: Code
+nav_order: 8
 ---
 
 # [Flip Body Up](https://github.com/joshberger5/Temptare/blob/second/Assets/FlipBodyUp.cs)
