@@ -5,9 +5,6 @@ nav_order: 3
 has_children: true
 has_toc: false
 ---
-
-hello
-
 # Code
 **I plan to go back and add more notes on the variables and methods, as well as add to Before you look... (Start() and Update())**
 
