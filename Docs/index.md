@@ -13,13 +13,13 @@ nav_order: 1
 This is the hierarchical breakdown of the GitHub repository for this project. All of the grey portions are referenced on this site.
 
 ## Navigating This Site
-* Gameplay Image Gallery
+* **Gameplay Image Gallery**
   * This section includes images and a video from playing the game. Starting here would paint a good picture for the Code, Prefabs, and Scenes sections.
-* Code
+* **Code**
   * This section describes all of the scripts I made to program the interactions and mechanics of the game.
-* Prefabs
+* **Prefabs**
   * This section describes all of the pre-made objects for the game that populate the scenes and have the scripts attached to them.
-* Scenes
+* **Scenes**
   * This section describes all the scenes (or levels) that make up the game.
 
 ----
