@@ -11,7 +11,6 @@ has_toc: false
 
 ## Code Hierarchy
 ![](./CodeHierarchy.png)
-
 This is the hierarchy of the scripts. The scripts with the same background color go together. For the most part, the children scripts add functionality to the parent scripts. For example, the Launch Projectile script is the Projectile script's parent, because, among other things, the Launch Projectile script fires a bullet, then the Projectile script controls the mechanics for that bullet.
 
 ## Before you look at the Scripts
