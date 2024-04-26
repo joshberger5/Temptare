@@ -35,6 +35,7 @@ This section describes the research demonstrating Virtual Reality has the potent
 
 ## Purpose
 Temptare and this site were created to fulfill requirements for my CSC-475 Seminar in Computer Science course at Furman University in the Spring of 2024.
+
 ![](./FurmanComputerScience.png)
 
 ----
