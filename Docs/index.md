@@ -28,6 +28,10 @@ This section describes all the scenes (or levels) that make up the game.
 **Research**
 This section describes the research demonstrating Virtual Reality has the potential to be better for education than traditional learning methods and its applications towards teaching gun safety.
 
+## Purpose
+Temptare and this site were created to fulfill requirements for my CSC-475 Seminar in Computer Science course at Furman University in the Spring of 2024.
+![](./FurmanComputerScience.png)
+
 ----
 
 [^1]: Temptare means to try or attempt in Latin, which is fitting since this is my first attempt at game development.
