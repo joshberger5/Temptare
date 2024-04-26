@@ -23,7 +23,7 @@ nav_order: 4
 <img id="mainIMG" src="./PrefabImages/BlasterPrefab.png"/>
 
 - A charcoal grey GameObject that resembles an umbrella handle
-- The mesh was taken from the Unity VR (Core) Template in Unity Hub
+- The mesh was taken from the [Unity VR (Core) Template](https://docs.unity3d.com/2022.2/Documentation/Manual/xr-template-vr.html) in [Unity Hub](https://unity.com/unity-hub)
 - There is an attach point at the base of the handle which designates where the user will hold it in their hand
 - There is a spawn point at the end of the barrel which designates where the projectile will be fired projectile
 - Has a RigidBody
