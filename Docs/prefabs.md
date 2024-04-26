@@ -28,7 +28,7 @@ nav_order: 4
 - There is a spawn point at the end of the barrel which designates where the projectile will be fired projectile
 - Has a RigidBody
 - Has two BoxColliders to fit the shape of the object
-- has the LaunchProjectile script attached
+- has the [Launch Projectile](./Code/LaunchProjectile.html) script attached
 - Is an [XR Grab Interactable](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.0/manual/xr-grab-interactable.html), so the user can equip it
 
 ### Bullet
@@ -37,7 +37,7 @@ nav_order: 4
 
 - A spherical GameObject that is fired by the Blaster
 - Moves forward until it collides with another GameObject
-- Has the Projectile script attached
+- Has the [Projectile](./Code/Projectile.html) script attached
 
 ### Barricade
 
@@ -50,7 +50,7 @@ nav_order: 4
 
 <img id="mainIMG" src="./PrefabImages/BodyPrefab.png"/>
 - Made to resemble a red or green cardboard cutout of a person 
-- Is only used in the Training Course scene
+- Is only used in the [Training Course](./Scenes/trainingCourse.html) scene
 - It is made up of 7 thin cubes:
   - Head
   - Torso
@@ -74,7 +74,7 @@ nav_order: 4
 - Hostile target
 - Has a BoxCollider
 - Increases the score when shot
-- Is only used in the Range scene
+- Is only used in the [Range](./Scenes/range.html) scene
 
 ### Friendly
 
@@ -84,13 +84,13 @@ nav_order: 4
 - Friendly target
 - Has a BoxCollider
 - Displays the WarningCanvas Prefab when shot
-- Is only used in the Range scene
+- Is only used in the [Range](./Scenes/range.html) scene
 
 ### Pole
 
 <img src="./PrefabImages/FriendlyOnPolePrefab.png"/><img class="rIMG" src="./PrefabImages/TargetOnPolePrefab.png"/>
 
-- Pole to hold up the Targets and Friendlies in the Range scene
+- Pole to hold up the Targets and Friendlies in the [Range](./Scenes/range.html) scene
 
 ### CameraColliders
 
@@ -101,7 +101,7 @@ nav_order: 4
   - **CameraStopper** - When the camera collides with this, the camera stops moving.
   - **CameraBodyFlipper** - When the camera collides with this, the nearby bodies (targets), which are lying down, are flipped up.
   - **CamerBodyRaiser** - When the camera collides with this, the nearby bodies (targets), which are underground, are raised aboveground.
-  - **CameraWinInvoker** - When the camera collides with this, the Win scene is loaded. The user should only reach it if they made it through the whole Training Course without doing something forbidden (i.e. aim at themselves or shoot a Friendly).
+  - **CameraWinInvoker** - When the camera collides with this, the [Win](./Scenes/win.html) scene is loaded. The user should only reach it if they made it through the whole [Training Course](./Scenes/trainingCourse.html) without doing something forbidden (i.e. aim at themselves or shoot a Friendly).
 
 ### ScoreUI
 
@@ -117,14 +117,14 @@ nav_order: 4
 <img id="mainIMG" src="./PrefabImages/SelfHarmHandlerPrefab.png"/>
 
 - A transparent object that is directly behind the user so aiming at themself can be detected
-- If it is aimed at, the SelfHarmPrevention scene is loaded
+- If it is aimed at, the [Self Harm Prevention](./Scenes/selfHarmPrevention.html) scene is loaded
 
 ### WarningCanvas
 
 <img id="mainIMG" src="./PrefabImages/WarningCanvasPrefab.png"/>
 
 - A message telling the user not to shoot friendly targets
-- Spawned above a friendly target if the user shoots it in the Range Scene
+- Spawned above a friendly target if the user shoots it in the [Range](./Scenes/range.html) Scene
 
 ## Unity GameObjects
 ## XR Origin (XR Rig)
