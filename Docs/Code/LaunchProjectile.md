@@ -1,5 +1,5 @@
 ---
-title: Launch Projectile
+title: Launch Projectile ●
 layout: default
 parent: Code
 nav_order: 1
