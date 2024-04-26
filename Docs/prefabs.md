@@ -126,6 +126,27 @@ nav_order: 4
 - A message telling the user not to shoot friendly targets
 - Spawned above a friendly target if the user shoots it in the Range Scene
 
+## Unity GameObjects
+## XR Origin (XR Rig)
+"The XR Origin represents the center of worldspace in an XR scene. The purpose of the XR Origin is to transform objects and trackable features to their final position, orientation, and scale in the Unity scene. It specifies an Origin, a Camera Floor Offset Object, and a Camera."[^6]
+
+## XR Interaction Manager
+"The Interaction Manager acts as an intermediary between Interactors and Interactables. It is possible to have multiple Interaction Managers, each with their own valid set of Interactors and Interactables. Upon being enabled, both Interactors and Interactables register themselves with a valid Interaction Manager (if a specific one has not already been assigned in the inspector). The loaded scenes must have at least one Interaction Manager for Interactors and Interactables to be able to communicate.
+
+Many of the methods on the Interactors and Interactables are designed to be called by this Interaction Manager rather than being called directly in order to maintain consistency between both targets of an interaction event."[^7]
+
+## Canvas
+"The Canvas is the area that all UI elements should be inside. The Canvas is a Game Object with a Canvas component on it, and all UI elements must be children of such a Canvas."[^8]
+
+## Text Mesh Pro
+"TextMeshPro is the ultimate text solution for Unity. It’s the perfect replacement for Unity’s UI Text and the legacy Text Mesh.
+
+Powerful and easy to use, TextMeshPro (also known as TMP) uses Advanced Text Rendering techniques along with a set of custom shaders; delivering substantial visual quality improvements while giving users incredible flexibility when it comes to text styling and texturing.
+
+TextMeshPro provides Improved Control over text formatting and layout with features like character, word, line and paragraph spacing, kerning, justified text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites, Custom Styles and more.
+
+Great performance. Since the geometry created by TextMeshPro uses two triangles per character just like Unity’s text components, this improved visual quality and flexibility comes at no additional performance cost."[^9]
+
 ----
 
 [^1]: [UnityLearn - Prefabs](https://learn.unity.com/tutorial/prefabs-e#)
@@ -133,7 +154,10 @@ nav_order: 4
 [^3]: [UnityDocs - Components](https://docs.unity3d.com/Manual/Components.html#:~:text=Components%20are%20the%20functional%20pieces,the%20Components%20attached%20to%20it.)
 [^4]: [UnityDocs - RigidBody](https://docs.unity3d.com/560/Documentation/Manual/class-Rigidbody.html)
 [^5]: [UnityDocs - Collider](https://docs.unity3d.com/560/Documentation/Manual/CollidersOverview.html#:~:text=Collider%20components%20define%20the%20shape,efficient%20and%20indistinguishable%20in%20gameplay.)
-
+[^6]: [UnityDocs - XR Origin](https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.0/manual/xr-origin.html#:~:text=The%20XR%20Origin%20represents%20the,Offset%20Object%2C%20and%20a%20Camera.)
+[^7]: [UnityDocs - XR Interaction Manager](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.0/manual/xr-interaction-manager.html)
+[^8]: [Unity Docs - Canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UICanvas.html)
+[^9]: [Unity Docs - Text Mesh Pro](https://docs.unity3d.com/Manual/com.unity.textmeshpro.html)
 
 <style>
 /* image settings, makes images half-sized, so they can go side by side */
