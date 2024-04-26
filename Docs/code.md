@@ -17,7 +17,7 @@ This is the hierarchy of the scripts. The scripts with the same background color
 These are some things that show up in the code that may be unfamiliar to you:
 
 ### SerializeField
-**SerializeField** adds a field in Unity's manual interface to either drag and drop a GameObject or Prefab or manually enter a value for the variable.[^2]
+**SerializeField** adds a field in Unity's manual interface to either drag and drop a [GameObject or Prefab](./prefabs.html) or manually enter a value for the variable.[^2]
 ```csharp
 [SerializeField]
 variableType variableName = value;
