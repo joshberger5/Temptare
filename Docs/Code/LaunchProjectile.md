@@ -7,7 +7,7 @@ nav_order: 1
 
 <img src="./LaunchProjectileHierarchy.png" width="50%">
 # [Launch Projectile](https://github.com/joshberger5/Temptare/blob/second/Assets/LaunchProjectile.cs)
-This script contains the mechanics for the blasters, such as firing projectiles, keeping score, and checking where the user is aiming.
+This script contains the mechanics for the [blasters](../prefabs.html#blaster), such as firing projectiles, keeping score, and checking where the user is aiming.
 
 ## Variables
 ```csharp
