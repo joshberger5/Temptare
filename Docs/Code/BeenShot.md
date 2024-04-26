@@ -7,7 +7,7 @@ nav_order: 3
 
 <img src="./LaunchProjectileHierarchy.png" width="50%">
 # [Been Shot](https://github.com/joshberger5/Temptare/blob/second/Assets/PersistentVarHolder.cs)
-This holds whether the friendly target the script is attached to has been shot already in order to display the warning only one time for each friendly target in the Range scene.
+This holds whether the [friendly target](../prefabs.html#friendly) the script is attached to has been shot already in order to display the warning only one time for each friendly target in the Range scene.
 
 ## Variables
 ```csharp

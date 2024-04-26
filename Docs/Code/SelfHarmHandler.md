@@ -7,7 +7,7 @@ nav_order: 11
 
 ![](./CameraMovementHierarchy.png)
 # [Self Harm Handler Position](https://github.com/joshberger5/Temptare/blob/second/Assets/SelfHarmHandlerPos.cs)
-This script makes the SelfHarmHandler follow the camera and sets its parts' initial positions and sizes to correspond with those of the user. For example, its top is set to be at the same height as the user's head.
+This script makes the [SelfHarmHandler](../prefabs.html#selfharmhandler) follow the camera and sets its parts' initial positions and sizes to correspond with those of the user. For example, its top is set to be at the same height as the user's head.
 
 ## Variables
 ```csharp
@@ -34,4 +34,13 @@ void Update() // make the object follow the camera and replicate its rotation
     transform.rotation = Quaternion.LookRotation(new Vector3(camera.transform.forward.x, 0, camera.transform.forward.z), Vector3.up); // make the object rotate with the camera
 }
 ```
+
+[UnityEngine.XR.InputDevices.GetDeviceAtXRNode](https://docs.unity3d.com/2020.1/Documentation/ScriptReference/XR.InputDevices.GetDeviceAtXRNode.html)
+
+[UnityEngine.XR.XRNode.Head](https://docs.unity3d.com/ScriptReference/XR.XRNode.Head.html)
+
+[TryGetFeatureValue](https://docs.unity3d.com/ScriptReference/XR.InputDevice.TryGetFeatureValue.html)
+
+[UnityEngine.XR.CommonUsages.devicePosition](https://docs.unity3d.com/ScriptReference/XR.CommonUsages-devicePosition.html)
+
 
