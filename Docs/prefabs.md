@@ -127,18 +127,18 @@ nav_order: 4
 - Spawned above a friendly target if the user shoots it in the [Range](./Scenes/range.html) Scene
 
 ## Unity GameObjects
-## XR Origin (XR Rig)
+### XR Origin (XR Rig)
 "The XR Origin represents the center of worldspace in an XR scene. The purpose of the XR Origin is to transform objects and trackable features to their final position, orientation, and scale in the Unity scene. It specifies an Origin, a Camera Floor Offset Object, and a Camera."[^6]
 
-## XR Interaction Manager
+### XR Interaction Manager
 "The Interaction Manager acts as an intermediary between Interactors and Interactables. It is possible to have multiple Interaction Managers, each with their own valid set of Interactors and Interactables. Upon being enabled, both Interactors and Interactables register themselves with a valid Interaction Manager (if a specific one has not already been assigned in the inspector). The loaded scenes must have at least one Interaction Manager for Interactors and Interactables to be able to communicate.
 
 Many of the methods on the Interactors and Interactables are designed to be called by this Interaction Manager rather than being called directly in order to maintain consistency between both targets of an interaction event."[^7]
 
-## Canvas
+### Canvas
 "The Canvas is the area that all UI elements should be inside. The Canvas is a Game Object with a Canvas component on it, and all UI elements must be children of such a Canvas."[^8]
 
-## Text Mesh Pro
+### Text Mesh Pro
 "TextMeshPro is the ultimate text solution for Unity. It’s the perfect replacement for Unity’s UI Text and the legacy Text Mesh.
 
 Powerful and easy to use, TextMeshPro (also known as TMP) uses Advanced Text Rendering techniques along with a set of custom shaders; delivering substantial visual quality improvements while giving users incredible flexibility when it comes to text styling and texturing.
