@@ -25,6 +25,9 @@ This section describes all of the pre-made objects for the game that populate th
 **Scenes**
 This section describes all the scenes (or levels) that make up the game.
 
+**Research**
+This section describes the research demonstrating Virtual Reality has the potential to be better for education than traditional learning methods and its applications towards teaching gun safety.
+
 ----
 
 [^1]: Temptare means to try or attempt in Latin, which is fitting since this is my first attempt at game development.
