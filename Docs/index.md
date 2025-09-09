@@ -5,7 +5,9 @@ nav_order: 1
 ---
 
 # TEMPTARE[^1]
-<iframe width="560" height="560" src="https://www.youtube.com/embed/iVY4b_V9NLc?si=vrloGeE0IZn09-kS?controls=0&autoplay=1&loop=1"></iframe>
+<div style="text-align: center;">
+  <iframe width="560" height="560" src="https://www.youtube.com/embed/iVY4b_V9NLc?si=vrloGeE0IZn09-kS?controls=0&autoplay=1&loop=1"></iframe>
+</div>
 
 ## Description
 Temptare is a Virtual Reality first person shooter that teaches gun safety through interactive gameplay. The player has the option to go through a training course where they must shoot enemy targets, avoid shooting friendly targets, and handle their gun with care. The player does not have to move themself through the training course. They are automatically moved through the course to reduce motion sickness. The player also has the option to get a hang of the controls on a shooting range. The game is designed to be both educational and entertaining, with the goal of improving gun safety knowledge and decision-making skills. The game was developed using Unity and C# and is intended to be played on a VR headset.
