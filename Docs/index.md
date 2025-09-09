@@ -14,7 +14,7 @@ Temptare is a Virtual Reality first person shooter that teaches gun safety throu
 
 ## Hierarchy
 ![](./Hierarchy.png)
-This is the hierarchical breakdown of the GitHub repository for this project. All of the grey portions are referenced on this site.
+This is the hierarchical breakdown of the GitHub repository for this project. All the grey portions are referenced on this site.
 
 ## Navigating This Site
 ### Gameplay Image Gallery
