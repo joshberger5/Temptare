@@ -5,8 +5,9 @@ nav_order: 1
 ---
 
 # TEMPTARE[^1]
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
+<div style="position: relative; padding-bottom: 100%; height: 0; overflow: hidden; border-radius: 8px;">
   <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/iVY4b_V9NLc?si=vrloGeE0IZn09-kS&controls=0&autoplay=1&mute=1&loop=1&playlist=iVY4b_V9NLc&modestbranding=1&rel=0" title="Temptare Gameplay Video" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></div>
 </div>
 
 ## Description
