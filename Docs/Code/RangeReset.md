@@ -6,7 +6,7 @@ nav_order: 13
 ---
 
 ![](./PersistentVarHolderHierarchy.png)
-# [Range Reset](https://github.com/joshberger5/Temptare/blob/second/Assets/RangeReset.cs)
+# [Range Reset](https://github.com/joshberger5/Temptare/blob/main/Assets/RangeReset.cs)
 This script resets the [Training Course](../Scenes/range.html) scene's score when the scene is loaded.
 
 ## Variables

@@ -6,7 +6,7 @@ nav_order: 11
 ---
 
 ![](./CameraMovementHierarchy.png)
-# [Self Harm Handler Position](https://github.com/joshberger5/Temptare/blob/second/Assets/SelfHarmHandlerPos.cs)
+# [Self Harm Handler Position](https://github.com/joshberger5/Temptare/blob/main/Assets/SelfHarmHandlerPos.cs)
 This script makes the [SelfHarmHandler](../prefabs.html#selfharmhandler) follow the camera and sets its parts' initial positions and sizes to correspond with those of the user. For example, its top is set to be at the same height as the user's head.
 
 ## Variables

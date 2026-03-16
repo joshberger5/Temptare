@@ -6,7 +6,7 @@ nav_order: 14
 ---
 
 ![](./PersistentVarHolderHierarchy.png)
-# [Training Course Reset](https://github.com/joshberger5/Temptare/blob/second/Assets/TrainingCourseReset.cs)
+# [Training Course Reset](https://github.com/joshberger5/Temptare/blob/main/Assets/TrainingCourseReset.cs)
 This script resets the [Training Course](../Scenes/trainingCourse.html) scene's score when the scene is loaded.
 
 ## Variables

@@ -6,7 +6,7 @@ nav_order: 10
 ---
 
 ![](./CameraMovementHierarchy.png)
-# [Raise Body Up](https://github.com/joshberger5/Temptare/blob/second/Assets/RaiseBodyUp.cs)
+# [Raise Body Up](https://github.com/joshberger5/Temptare/blob/main/Assets/RaiseBodyUp.cs)
 This script is attached to a [body/target](../prefabs.html#body) and raises it aboveground since it is hidden underground.
 
 ## Variables

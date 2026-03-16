@@ -6,7 +6,7 @@ nav_order: 5
 ---
 
 ![](./CameraMovementHierarchy.png)
-# [StartMovement](https://github.com/joshberger5/Temptare/blob/second/Assets/StartMovement.cs)
+# [StartMovement](https://github.com/joshberger5/Temptare/blob/main/Assets/StartMovement.cs)
 This script starts the [camera's](../prefabs.html#xr-origin-xr-rig) movement in the [Training Course](../Scenes/trainingCourse.html) scene. It is attached to the red wall in front of the user, so when the user shoots it, the user starts moving along the predetermined route.
 
 ## Variables

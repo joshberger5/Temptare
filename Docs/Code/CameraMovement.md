@@ -6,7 +6,7 @@ nav_order: 4
 ---
 
 ![](./CameraMovementHierarchy.png)
-# [Camera Movement](https://github.com/joshberger5/Temptare/blob/second/Assets/CameraMovement.cs)
+# [Camera Movement](https://github.com/joshberger5/Temptare/blob/main/Assets/CameraMovement.cs)
 This script moves the [camera](../prefabs.html#xr-origin-xr-rig) and decides which action to perform when the camera collides with specific objects.
 
 ## Variables
